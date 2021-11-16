@@ -135,11 +135,12 @@ h1 {
   .Estaciones .marijoTres {
     margin-left: 3%;
     margin-right: 3%;
+    margin-top: 60px;
     border-radius: 10px; }
     .Estaciones .marijoTres .fotosTres {
       transition-duration: 3s; }
     .Estaciones .marijoTres .fotosTres:hover {
-      transform: scale(1, 1); }
+      transform: scale(2, 2); }
 
 .Estaciones img {
   width: 30%;

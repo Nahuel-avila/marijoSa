@@ -78,14 +78,15 @@ h1{
     .marijoTres{
         margin-left: 3%;
         margin-right: 3%;
+        margin-top: 60px;
         border-radius: 10px;
         @extend %FotosStyle;
         .fotosTres{
-            transition-duration: 3s;
+            transition-duration:3s;
         }
         
         .fotosTres:hover{
-            transform: scale(1,1);
+            transform: scale(2,2);
         }
     }
 
