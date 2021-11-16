@@ -1,0 +1,17 @@
+%estilosCuadros {
+    background-image:map-get($coloresMaps, segundo);
+    background-size:100%;
+    text-align: center;
+    height: auto;
+    border:solid black 3px;
+    color:$color-texto-proyecto;
+    border-radius: 40px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+%FotosStyle{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border:solid black 3px;
+    background-image:radial-gradient(circle, rgba(0,0,0,1) 0%, rgba(63,63,85,1) 0%, rgba(82,102,129,1) 64%, rgba(158,168,176,1) 100%, rgba(153,154,157,1) 100%);
+}

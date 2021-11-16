@@ -1,0 +1,29 @@
+
+/*variables*/
+$color-principal: linear-gradient(to bottom, #526b8c, #c2c6c9);;
+$color-texto:white;
+$color-texto-proyecto:rgb(15, 22, 65);
+$color-titulproyecto:rgb(31, 30, 95);
+$color-botones:rgb(15, 26, 51);
+$color-bordesuno:rgb(235, 233, 233);
+$alto:max-content;
+$ancho:max-content;
+
+/*listas*/
+$ColoreS:
+  /*1*/  black,
+  /*2*/ blue,
+  /*3*/ white,
+  /*4*/ red;
+/*AGREGUE LA LISTA, NO LA UTILIZO POR EL ECHO DE QUE USE LOS MAPS*/
+/*UTILIZACION
+backgraund-color:nth (nombre de lista, posicion de color requerido)
+igual para todos los elementos que se le agreguen listas
+*/
+
+/* maps */
+$coloresMaps:(
+    primero: linear-gradient(to top, white,rgb(138, 139, 140)),
+    segundo:  linear-gradient(to bottom, white,rgb(138, 139, 140)),
+    tercero: rgb(97, 97, 97),
+)

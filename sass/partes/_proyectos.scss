@@ -1,0 +1,61 @@
+h2{
+    text-align: center;
+}
+.agua{
+    background-image:linear-gradient(to bottom,rgb(95, 95, 95),rgb(163,167,170));
+    background-size: cover;
+    margin: auto;
+    text-align: center;
+    border: solid 3px gray;
+    color:$color-texto-proyecto;
+    border-radius: 35px;
+    ul{
+        padding: 0;
+        li{
+            list-style-type: none;
+        }
+    }
+}
+.proyectosVarios{
+    margin: 5% 5%;
+    margin-top: 10px;
+}
+    .tapas{
+        @extend %estilosCuadros !optional;
+    }
+    .carton{
+        @extend %estilosCuadros !optional;
+    }
+    .plastico{
+        @extend %estilosCuadros !optional;
+    }
+    .aceite{
+        @extend %estilosCuadros !optional;
+    }
+    .compost{
+        @extend %estilosCuadros !optional;
+    }
+    .parrafo_proyecto{
+        border:solid rgb(89, 89, 89) 3px;
+        border-radius: 25px;
+        margin: 1% 1%;
+        box-shadow: 0px 10px 20px;
+        transition: 5s;
+            :hover{
+                transform:translateX(20deg);
+            }
+    }
+section{
+    article{
+        p{
+            font-size: 20px;
+            color: rgb(60, 48, 48);
+        }
+    }
+}
+section img{
+    width:35%;
+    height: 3%;
+    text-align: center;
+    padding: 5px;
+}

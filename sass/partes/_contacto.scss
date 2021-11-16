@@ -1,0 +1,85 @@
+.contacto__principio{
+    &__titulo{
+        color: $color-texto;
+        font-style:oblique;
+
+    }
+    &__texto{
+        border: double 5px grey;
+        background-image: radial-gradient(ellipse at 50% , rgb(85, 117, 148), rgb(104, 134, 199));
+        color:$color-texto;
+        font-family:'Courier New', Courier, monospace;
+        font-size: 20px;
+        text-align: center;
+        margin: 40px;
+        margin-bottom: 50px;
+        padding: 20px;
+        box-shadow: black 0px 20px 50px 10px;
+    }
+}
+.Grilla{
+    img{
+        border-radius: 30px ;
+        width: $ancho;
+        height: $alto;
+        margin-bottom: 2px;
+    }
+}
+.Fondo_formulario{
+    width: 50%;
+    margin: auto;
+    }
+    .contacto{
+        font-family: monospace;
+        color: $color-texto;
+        margin:0;
+        font-size: 30px;
+    }
+    form{
+        width: 450px;
+        background:rgb(0,0,6);
+        margin: auto;
+        padding: 10px 20px;
+        box-sizing: border-box;
+        border-radius: 20px;
+        opacity: 80%;
+        padding: 50px;
+    }
+
+input, textarea, select {
+    width: 100%;
+    margin-bottom: 30px;
+    padding: 10px;
+    box-sizing: border-box;
+}
+.genero{
+    color: white;
+}
+
+
+@media (max-width:480px) {
+    .contacto__principio{
+        &__titulo{
+           font-size: 20px;
+        }
+        &__texto{
+          font-size: 15px;
+        }
+    }
+    form{
+    width: 100%;
+    padding: 20px;
+    }
+}
+@media (max-width:780px) {
+    form{
+        width: 100%;
+        padding: 5px;
+    }
+}
+@media (max-width:1024px) {
+    form{
+        width: 100%;
+        padding: 20px;
+    }
+}

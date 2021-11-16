@@ -1,0 +1,21 @@
+@import 'base/variables';
+@import 'base/extend';
+@import 'base/operaciones';
+@import 'partes/header';
+@import 'partes/index';
+@import 'partes/sucusales';
+@import 'partes/nosotros';
+@import 'partes/proyectos';
+@import 'partes/contacto';
+@import 'partes/error404';
+
+*{
+    margin:0;
+    padding: 0;
+}
+body{
+    background-image:$color-principal;
+}
+
+
+

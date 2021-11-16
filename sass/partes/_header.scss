@@ -1,0 +1,18 @@
+
+header{
+    img{
+        display:flex;
+        flex-basis: content;
+        width: 50%;
+        transition: 4s;
+        :hover{
+            transform: rotateX(360deg);
+        }
+    }
+}
+.logo{
+    transition-duration: 3s;
+    }
+    .logo:hover{
+    transform: rotateX(360deg);
+    }

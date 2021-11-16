@@ -1,0 +1,67 @@
+section{
+    text-align: center;
+}
+.caLidad{
+    background-image: linear-gradient(to left,rgb(151, 151, 151), rgb(96, 96, 99));
+    margin:30px;
+    color: $color-texto;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-size: 30px;
+    border:solid 1px
+}
+.mision__valor{
+        &__item{
+            background-image: linear-gradient(to top, white,rgb(138, 139, 140));
+            background-size: contain;
+            border: 2px solid white;
+            margin: 15px;
+            padding: 10px 20px;
+            &__letras{
+            margin: 20px;
+            padding: 30px;
+            border:double rgb(97, 122, 177) 5px;
+            box-shadow: rgb(90, 101, 121) 0px 20px 30px;
+            }
+        }
+    }
+h4{
+    color: black;
+    margin-bottom: 10px;
+}
+.lista{
+    background-image: map-get($coloresMaps ,segundo );
+    height: $alto;
+    margin: 30px;
+    padding: 35px;
+    border: 2px solid white;
+    color: $color-texto;
+    .flex-contenedor{
+        background-image:map-get($coloresMaps,primero );
+        display: flex;
+        flex-flow:column;
+        justify-content:center;
+        justify-content: space-between;
+        height: $alto;
+        padding: 10px;
+        margin: 10px;
+            article{
+            background-color: rgb(97, 97, 97);
+            width: auto;
+            flex-wrap: wrap;
+            margin: 3px;
+            padding: 10px;
+            text-align: center;
+            line-height: 20px;
+            font-size: 1rem;
+            border:double rgb(97, 122, 177) 5px;
+            box-shadow: black 00px 10px 25px 10px;
+            text-shadow: blue 0px 10px 10px 10px;
+            }
+        }
+    
+    }
+    @media (max-width:480px) {
+        .caLidad{
+           font-size: 20px;
+  }
+}
