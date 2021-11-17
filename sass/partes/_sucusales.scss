@@ -33,7 +33,10 @@ h1{
         margin-top: 20px;
     }
 }
-        
+.Mapa{
+    width: 800px;
+    height: 600px;
+}
 .Estaciones{
     text-align: center;
     .central{
@@ -109,4 +112,22 @@ h1{
 .carousel{
     margin-left: 10%;
     margin-right: 10%;
+}
+@media (max-width:920px) {
+    .Mapa{
+        width: 500;
+        height: 500;
+    }
+}
+@media (max-width:780px) {
+    .Mapa{
+        width: 400;
+        height: 400;
+    }
+}
+@media (max-width:480px) {
+    .Mapa{
+        width: 250;
+        height: 250;
+    }
 }
