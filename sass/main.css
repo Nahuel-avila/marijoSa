@@ -245,6 +245,10 @@ h1 {
     width: 250;
     height: 250;
   }
+  img {
+    width: 80%;
+    height: 60%;
+  }
 }
 
 section {
