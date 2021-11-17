@@ -98,6 +98,10 @@ Video {
   height: 100%;
 }
 
+h1 {
+  color: white;
+}
+
 .sucursal__principal__titulo {
   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
   font-weight: 700;
@@ -136,6 +140,12 @@ Video {
   text-align: center;
 }
 
+.Estaciones .central {
+  margin-left: 3%;
+  margin-right: 3%;
+  border-radius: 10px;
+}
+
 .Estaciones .central .fotosCero {
   -webkit-transition-duration: 2s;
           transition-duration: 2s;
@@ -144,6 +154,12 @@ Video {
 .Estaciones .central .fotosCero:hover {
   -webkit-transform: scale(2.2);
           transform: scale(2.2);
+}
+
+.Estaciones .marijoUno {
+  margin-left: 3%;
+  margin-right: 3%;
+  border-radius: 10px;
 }
 
 .Estaciones .marijoUno .fotosUno {
@@ -156,6 +172,12 @@ Video {
           transform: scale(2, 2);
 }
 
+.Estaciones .marijoDos {
+  margin-left: 3%;
+  margin-right: 3%;
+  border-radius: 10px;
+}
+
 .Estaciones .marijoDos .fotosDos {
   -webkit-transition-duration: 2s;
           transition-duration: 2s;
@@ -166,9 +188,16 @@ Video {
           transform: scale(2, 2);
 }
 
+.Estaciones .marijoTres {
+  margin-left: 3%;
+  margin-right: 3%;
+  margin-top: 60px;
+  border-radius: 10px;
+}
+
 .Estaciones .marijoTres .fotosTres {
-  -webkit-transition-duration: 2s;
-          transition-duration: 2s;
+  -webkit-transition-duration: 3s;
+          transition-duration: 3s;
 }
 
 .Estaciones .marijoTres .fotosTres:hover {
@@ -177,8 +206,8 @@ Video {
 }
 
 .Estaciones img {
-  width: 300px;
-  height: 250px;
+  width: 30%;
+  height: 40%;
   text-align: center;
 }
 
@@ -196,8 +225,8 @@ section {
 }
 
 .caLidad {
-  background-image: -webkit-gradient(linear, right top, left top, from(white), to(darkblue));
-  background-image: linear-gradient(to left, white, darkblue);
+  background-image: -webkit-gradient(linear, right top, left top, from(#979797), to(#606063));
+  background-image: linear-gradient(to left, #979797, #606063);
   margin: 30px;
   color: white;
   font-family: Georgia, 'Times New Roman', Times, serif;
@@ -262,7 +291,7 @@ h4 {
   margin: 10px;
 }
 
-.lista .flex-contenedor div {
+.lista .flex-contenedor article {
   background-color: #616161;
   width: auto;
   -ms-flex-wrap: wrap;
@@ -276,6 +305,12 @@ h4 {
   -webkit-box-shadow: black 00px 10px 25px 10px;
           box-shadow: black 00px 10px 25px 10px;
   text-shadow: blue 0px 10px 10px 10px;
+}
+
+@media (max-width: 480px) {
+  .caLidad {
+    font-size: 20px;
+  }
 }
 
 h2 {
@@ -327,9 +362,29 @@ section article p {
 }
 
 section img {
-  width: 50%;
+  width: 35%;
+  height: 3%;
   text-align: center;
   padding: 5px;
+}
+
+.contacto__principio__titulo {
+  color: white;
+  font-style: oblique;
+}
+
+.contacto__principio__texto {
+  border: double 5px grey;
+  background-image: radial-gradient(ellipse at 50%, #557594, #6886c7);
+  color: white;
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 20px;
+  text-align: center;
+  margin: 40px;
+  margin-bottom: 50px;
+  padding: 20px;
+  -webkit-box-shadow: black 0px 20px 50px 10px;
+          box-shadow: black 0px 20px 50px 10px;
 }
 
 .Grilla img {
@@ -343,69 +398,73 @@ section img {
   margin-bottom: 2px;
 }
 
-.Tituloform {
-  text-align: center;
-}
-
 .Fondo_formulario {
-  text-align: center;
-}
-
-.Fondo_formulario .formulario {
-  background-image: radial-gradient(circle at 10%, #526b8c, #8a8b8c);
-  background-size: auto;
-  background-repeat: no-repeat;
-  background-position: center;
+  width: 50%;
   margin: auto;
-  margin-left: auto;
-  margin-right: auto;
-  padding: 0;
-  opacity: 85%;
 }
 
-.contacto__principio__titulo {
+.contacto {
+  font-family: monospace;
   color: white;
-  font-style: oblique;
+  margin: 0;
+  font-size: 30px;
 }
 
-.contacto__principio__texto {
-  border: double 5px grey;
-  background-image: radial-gradient(ellipse at 50%, #363738, grey);
+form {
+  width: 450px;
+  background: #000006;
+  margin: auto;
+  padding: 10px 20px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  border-radius: 20px;
+  opacity: 80%;
+  padding: 50px;
+}
+
+input, textarea, select {
+  width: 100%;
+  margin-bottom: 30px;
+  padding: 10px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.genero {
   color: white;
-  font-family: 'Courier New', Courier, monospace;
-  font-size: 20px;
+}
+
+@media (max-width: 480px) {
+  .contacto__principio__titulo {
+    font-size: 20px;
+  }
+  .contacto__principio__texto {
+    font-size: 15px;
+  }
+  form {
+    width: 100%;
+    padding: 20px;
+  }
+}
+
+@media (max-width: 780px) {
+  form {
+    width: 100%;
+    padding: 5px;
+  }
+}
+
+@media (max-width: 1024px) {
+  form {
+    width: 100%;
+    padding: 20px;
+  }
+}
+
+body {
+  display: block;
+  background-color: white;
   text-align: center;
-  margin: 40px;
-  margin-bottom: 50px;
-  padding: 20px;
-  -webkit-box-shadow: black 0px 20px 50px 10px;
-          box-shadow: black 0px 20px 50px 10px;
-}
-
-.btn-nombre {
-  border-radius: 6px;
-  color: white;
-  margin: 4px;
-}
-
-.btn-form {
-  border-radius: 4px;
-  border: 2px solid white;
-  background: grey;
-  height: 30px;
-}
-
-.btn-limpiar {
-  color: white;
-  border-radius: 10px;
-  height: 40px;
-  width: 80px;
-  background-color: #0f1a33;
-}
-
-.comentario {
-  height: 100px;
-  width: 300px;
 }
 
 * {
