@@ -233,7 +233,7 @@ h1 {
   }
 }
 
-@media (max-width: 780px) {
+@media (max-width: 720px) {
   .Mapa {
     width: 400;
     height: 400;
@@ -246,8 +246,8 @@ h1 {
     height: 250;
   }
   img {
-    width: 80%;
-    height: 60%;
+    width: 250px;
+    height: 180px;
   }
 }
 
