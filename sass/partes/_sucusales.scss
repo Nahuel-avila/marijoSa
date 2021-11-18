@@ -45,7 +45,9 @@ h1{
         border-radius: 10px;
         @extend %FotosStyle;
        .fotosCero{
-            transition-duration:2s;
+           width: 700px;
+           height: 500px;
+           transition-duration:2s;
         }
         
         .fotosCero:hover{
@@ -58,6 +60,8 @@ h1{
         border-radius: 10px;
         @extend %FotosStyle;
         .fotosUno{
+            width: 700px;
+            height: 500px;
             transition-duration: 2s;
         }
         
@@ -71,7 +75,9 @@ h1{
         border-radius: 10px;
         @extend %FotosStyle;
        .fotosDos{
-            transition-duration: 2s;
+           width: 700px;
+           height: 500px;
+           transition-duration: 2s;
         }
     
         .fotosDos:hover{
@@ -85,7 +91,9 @@ h1{
         border-radius: 10px;
         @extend %FotosStyle;
         .fotosTres{
-            transition-duration:3s;
+            width: 700px;
+            height: 500px;
+            transition-duration:2s;
         }
         
         .fotosTres:hover{
@@ -94,13 +102,7 @@ h1{
     }
 
 }
-.Estaciones{
-    .fotosUno {
-        width: 800px;
-        height: 600px;
-        text-align: center;
-    }
-}
+
 .Estaciones{
     .carousel-inner{
         img{
