@@ -174,8 +174,8 @@ h1 {
 }
 
 .Estaciones .marijoUno .fotosUno:hover {
-  -webkit-transform: scale(2, 2);
-          transform: scale(2, 2);
+  -webkit-transform: scale(1.3, 1.3);
+          transform: scale(1.3, 1.3);
 }
 
 .Estaciones .marijoDos {
@@ -211,7 +211,7 @@ h1 {
           transform: scale(2, 2);
 }
 
-.Estaciones img {
+.Estaciones .fotosUno {
   width: 800px;
   height: 600px;
   text-align: center;
