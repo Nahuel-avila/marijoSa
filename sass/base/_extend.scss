@@ -1,4 +1,15 @@
 %estilosCuadros {
+    background-image:map-get($coloresMaps, primero);
+    background-size:100%;
+    text-align: center;
+    height: auto;
+    border:solid black 3px;
+    color:$color-texto-proyecto;
+    border-radius: 40px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+%estilosCuadrosDos {
     background-image:map-get($coloresMaps, segundo);
     background-size:100%;
     text-align: center;

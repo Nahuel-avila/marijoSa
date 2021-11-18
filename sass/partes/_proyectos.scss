@@ -6,9 +6,8 @@ h2{
     background-size: cover;
     margin: auto;
     text-align: center;
-    border: solid 3px gray;
     color:$color-texto-proyecto;
-    border-radius: 35px;
+    border-radius: 20px;
     ul{
         padding: 0;
         li{
@@ -30,10 +29,10 @@ h2{
         @extend %estilosCuadros !optional;
     }
     .aceite{
-        @extend %estilosCuadros !optional;
+        @extend %estilosCuadrosDos !optional;
     }
     .compost{
-        @extend %estilosCuadros !optional;
+        @extend %estilosCuadrosDos !optional;
     }
     .parrafo_proyecto{
         border:solid rgb(89, 89, 89) 3px;
@@ -49,7 +48,7 @@ section{
     article{
         p{
             font-size: 20px;
-            color: rgb(60, 48, 48);
+            color: rgb(225, 225, 225);
         }
     }
 }
